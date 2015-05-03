@@ -1,0 +1,48 @@
+<ul class="nav nav-pills nav-stacked">
+        <li>
+			<img src="img/dashboard.png" style=" height:30px; width:30px;">
+			<a href="#">Dashboard</a>
+		</li>
+        <li>
+			<img src="img/addemp.png" style="height:30px; width:30px;">
+			<a href="#">Add Employee</a>
+		</li>
+        <li>
+			<img src="img/adduser.png" style="height:30px; width:30px;">
+			<a href="#">Add User</a>
+		</li>
+        <li>
+			<img src="img/sch.png" style="height:30px; width:30px;">
+			<a href="#">Route Schedule</a>
+		</li>
+        <li>
+			<img src="img/ins.png" style="height:30px; width:30px;">
+			<a href="#">Insurance</a>
+		</li>
+        <li>
+			<img src="img/leasing.png" style="height:30px; width:30px;">
+			<a href="#">Leasing</a>
+		</li>
+        <li>
+			<img src="img/serv.png" style="height:30px; width:30px;">
+			<a href="#">Service</a>
+		</li>
+        <li>
+			<img src="img/maint.png" style="height:30px; width:30px;">
+			<a href="#">Maintenance</a>
+		</li>
+        <li>
+			<img src="img/hire.png" style="height:30px; width:30px;">
+			<a href="#">Hire Payment</a>
+		</li>
+        <li>
+			<img src="img/report.png" style="height:30px; width:30px;">
+			<a href="#">Reports</a>
+		</li>
+        <li>
+			<img src="img/cal.png" style="height:30px; width:30px;">
+			<a href="#">Calender</a>
+		</li>
+        <li>
+			<img src="img/back.png" style="height:30px; width:30px;">
+			<a href="#">Backup/Restore</a> 
