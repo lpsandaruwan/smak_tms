@@ -71,61 +71,57 @@
 	}
 	
 	#container{
-	
 		margin: 10px;
 		border: 1px solid #D0D0D0;
-		-webkit-box-shadow: 10px 10px 8px #D0D0D0;
+		-webkit-box-shadow: 4px 4px 6px #D0D0D0;
 	}
 
 	#container1{
 		position: relative;
 		float:left;
-		max-width: 220px;
+		min-width:200px;
+		max-width: 240px;
 		max-height: 1500px;
 		margin: 10px;
 		border: 1px solid #D0D0D0;
 		padding: 15px 15px 10px 10px;
-		-webkit-box-shadow: 10px 10px 8px #D0D0D0;	
+		-webkit-box-shadow: 4px 4px 6px #D0D0D0;	
 	}
 	
 	#container2{
 		float: right;
 		margin: 10px;
-		min-width:500px;
-		max-width:1600px;
+		min-width:600px;
+		width:1020px;
+		max-width:1800px;
 		max-height:600px;
 		border: 1px solid #D0D0D0;
 		padding: 10px 10px 10px 10px;
-		-webkit-box-shadow: 10px 10px 8px #D0D0D0;
+		-webkit-box-shadow: 4px 4px 6px #D0D0D0;
 	}	
 	
 	.btn{
-		color: darkred;
+		color: #191919;
 		background:white;
 		width:170px;
 		margin:10px;
 		font-size:14px;
 		padding:20px;
 		border:1px solid #D0D0D0;
-		-webkit-box-shadow: 6px 6px 8px #D0D0D0;
+		-webkit-box-shadow: 4px 4px 6px #D0D0D0;
 	}
 	
 	.btn a{
-		color:red;
+		color:black;
 	}
 	
 	.btn:hover{
-		background:#FFDB4D;
-		color:red;
+		background:#CC0000;
+		color:white;
 		width:170px;
-		margin:10px;
 		font-size:14px;
 		padding:20px;
 		border:1px solid #D0D0D0;
-	}
-	
-	.btn a:hover{
-		color:red;
 	}
 	
 	.usermenu{
@@ -134,128 +130,136 @@
 	}
 
 	.btn-xs{
-		color: darkred;
+		color: #191919;
+		margin:0;
+		font-size:12px;
+		width:180px;
+		height:40px;
 		background:white;
-		width:170px;
 		border:1px solid #D0D0D0;
-		-webkit-box-shadow: 6px 6px 8px #D0D0D0;
+		padding:1px 1px 1px 1px;
+		-webkit-box-shadow: 4px 4px 6px #D0D0D0;
 	}
 	
 	.btn-xs a{
-		color:red;
+		padding:10px 10px 10px 10px;
+		color:#191919;
 	}
 	
 	.btn-xs:hover{
-		background:#FFDB4D;
-		color:red;
-		width:170px;
+		margin:0;
+		color:white;
+		font-size:12px;
+		padding:1px 1px 1px 1px;
+		width:180px;
+		height:40px;
+		background:#CC0000;
 		border:1px solid #D0D0D0;
 	}
 	
-	.btn-xs a:hover{
-		color:red;
-	}
 	
 	</style>
 	</head>
 	
 	<body>
         <div id="container">
-            <img src="/smak-tms/home/img/smaklogo.jpg" style="-webkit-box-shadow: 6px 6px 8px #D0D0D0; height:80px; width:140px"></img>
+            <img src="/smak-tms/home/img/smaklogo.png" style="height:80px; width:140px"></img>
 			<div class=usermenu>dd<?php echo $username; ?></div>
 		</div>
 		
 		<div id="container2">
 				<h2>Dashboard</h2>
 				
-				<div class=btn>
+				<div>
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/addemp.png" style="height:60px; width:60px;">
-					<br/><a href="#">Add Employee</a>
-				</div>
-				<div class=btn>
+					<br/>Add Employee</a>
+				
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/addveh.png" style="height:60px; width:60px;">
-					<br/><a href="#">Add Vehicle</a>
-				</div>
-				<div class=btn>
+					<br/>Add Vehicle</a>
+				
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/adduser.png" style="height:60px; width:60px;">
-					<br/><a href="#">Add User</a>
-				</div>
-				<div class=btn>
+					<br/>Add User</a>
+	
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/sch.png" style="height:60px; width:60px;">
-					<br/><a href="#">Route Schedule</a>
-				</div>
-				<div class=btn>
+					<br/>Route Schedule</a>
+				
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/ins.png" style="height:60px; width:60px;">
-					<br/><a href="#">Insurance</a>
-				</div><br/>
-				<div class=btn>
+					<br/>Insurance</a>
+				<br/>
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/leasing.png" style="height:60px; width:60px;">
-					<br/><a href="#">Leasing</a>
-				</div>
-				<div class=btn>
+					<br/>Leasing</a>
+			
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/serv.png" style="height:60px; width:60px;">
-					<br/><a href="#">Service</a>
-				</div>
-				<div class=btn>
+					<br/>Service</a>
+
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/maint.png" style="height:60px; width:60px;">
-					<br/><a href="#">Maintenance</a>
-				</div>
-				<div class=btn>
+					<br/>Maintenance</a>
+
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/hire.png" style="height:60px; width:60px;">
-					<br/><a href="#">Hire Payment</a>
-				</div>
-				<div class=btn>
+					<br/>Hire Payment</a>
+				
+				<a href="kk" class="btn btn">
 					<img src="/smak-tms/home/img/report.png" style="height:60px; width:60px;">
-					<br/><a href="#">Reports</a>
+					<br/>Reports</a>
 				</div>
 		</div>
 		
 		<div id="container1">	
 
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/dashboard.png" style="height:30px; width:30px;">
-					<a href="#">Dashboard</a>
-				</div>				
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/addemp.png" style="height:30px; width:30px;">
-					<a href="#">Add Employee</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/addveh.png" style="height:30px; width:30px;">
-					<a href="#">Add Vehicle</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/adduser.png" style="height:30px; width:30px;">
-					<a href="#">Add User</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/sch.png" style="height:30px; width:30px;">
-					<a href="#">Route Schedule</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/ins.png" style="height:30px; width:30px;">
-					<a href="#">Insurance</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/leasing.png" style="height:30px; width:30px;">
-					<a href="#">Leasing</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/serv.png" style="height:30px; width:30px;">
-					<a href="#">Service</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/maint.png" style="height:30px; width:30px;">
-					<a href="#">Maintenance</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/hire.png" style="height:30px; width:30px;">
-					<a href="#">Hire Payment</a>
-				</div>
-				<div class=btn-xs>
-					<img src="/smak-tms/home/img/report.png" style="height:30px; width:30px;">
-					<a href="#">Reports</a>
-				</div>
+			<div>
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/dashboard.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Dashboard</p></a><br/>
+					
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/addemp.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Add Employee</p></a><br/>
+
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/addveh.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Add Vehicle</p></a><br/>
+
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/adduser.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Add User</p></a><br/>
+				
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/sch.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Route Schedule</p></a><br/>
+
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/ins.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Insurance</p></a><br/>
+
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/leasing.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Leasing</p></a><br/>
+					
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/serv.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Service</p></a><br/>
+					
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/maint.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Maintenance</p></a></br>
+
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/hire.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Hire Payment</p></a><br/>
+				
+				<a href="" class="btn btn-xs">
+					<img src="/smak-tms/home/img/report.png" style="float:left;height:20px; width:20px;">
+					<p style="text-align: left; margin:10px;">Reports</p></a><br/>
+			</div>
 		</div>
 	</body>
 </html>
