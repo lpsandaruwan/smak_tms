@@ -116,7 +116,7 @@
 	}
 	
 	.btn:hover{
-		background:#CC0000;
+		background:grey;
 		color:white;
 		width:170px;
 		font-size:14px;
@@ -153,7 +153,7 @@
 		padding:1px 1px 1px 1px;
 		width:180px;
 		height:40px;
-		background:#CC0000;
+		background:grey;
 		border:1px solid #D0D0D0;
 	}
 	
@@ -171,7 +171,7 @@
 				<h2>Dashboard</h2>
 				
 				<div>
-				<a href="kk" class="btn btn">
+				<a href="/smak-tms/index.php/adddriver" class="btn btn">
 					<img src="/smak-tms/home/img/addemp.png" style="height:60px; width:60px;">
 					<br/>Add Employee</a>
 				
@@ -216,11 +216,11 @@
 		<div id="container1">	
 
 			<div>
-				<a href="" class="btn btn-xs">
+				<a href="/smak-tms/index.php/home" class="btn btn-xs">
 					<img src="/smak-tms/home/img/dashboard.png" style="float:left;height:20px; width:20px;">
 					<p style="text-align: left; margin:10px;">Dashboard</p></a><br/>
 					
-				<a href="" class="btn btn-xs">
+				<a href="/smak-tms/index.php/adddriver" class="btn btn-xs">
 					<img src="/smak-tms/home/img/addemp.png" style="float:left;height:20px; width:20px;">
 					<p style="text-align: left; margin:10px;">Add Employee</p></a><br/>
 
