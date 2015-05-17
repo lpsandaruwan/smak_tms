@@ -43,8 +43,8 @@ class AddAssistant extends CI_Controller {
         );
      
         $this->addempa->addassistant($data);
-        $this->load->view('addassistant_view');
         unset($_POST);
+        $this->load->view('home_view');
     }
      
    }}

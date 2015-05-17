@@ -43,8 +43,8 @@ class AddCleaner extends CI_Controller {
         );
      
         $this->addempc->addcleaner($data);
-        $this->load->view('addcleaner_view');
         unset($_POST);
+        $this->load->view('home_view');
     }
      
    }}

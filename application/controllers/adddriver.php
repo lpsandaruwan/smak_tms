@@ -51,8 +51,8 @@ class AddDriver extends CI_Controller {
         );
      
         $this->addempd->adddriver($data);
-        $this->load->view('adddriver_view');
         unset($_POST);
+        $this->load->view('home_view');
     }
      
    }}
